@@ -1,11 +1,17 @@
 package com.nosto.currencyconvertor.service;
 
 import com.nosto.currencyconvertor.enums.Currency;
-import java.math.BigDecimal;
 
-/** This interface */
+/** This service is responsible for converting the monetary values from one currency to other */
 public interface CurrencyConvertorService {
 
-  String getConvertedMonetaryValue(
-      Currency sourceCurrency, Currency targetCurrency, BigDecimal value);
+  /**
+   * This method converts a given monetary value from one currency to other
+   *
+   * @param sourceCurrency
+   * @param targetCurrency
+   * @param value
+   * @return
+   */
+  String getConvertedMonetaryValue(Currency sourceCurrency, Currency targetCurrency, Float value);
 }

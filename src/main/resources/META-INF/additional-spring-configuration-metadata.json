@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "currency.exchange.key",
+      "type": "java.lang.String",
+      "description": "Access key for exchange rates api."
+    },
+    {
+      "name": "currency.exchange.url",
+      "type": "java.lang.String",
+      "description": "URL for exchange rates api."
+    }
+  ] }

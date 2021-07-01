@@ -11,7 +11,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-@EnableFeignClients(basePackageClasses= CurrencyExchangeClient.class)
+@EnableFeignClients(basePackageClasses = CurrencyExchangeClient.class)
 public class CurrencyConvertorApplication {
 
   public static void main(String[] args) {
